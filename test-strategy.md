@@ -1,5 +1,5 @@
 CASO #1
-DESCRIPCION: Linea #89
+DESCRIPCION: Linea #88
 El llamado de la constante guessSubmit hacia referencia a una funcion mal escrita por lo que se cambio por la correcta.
 
 Se adjunta evidencia del caso: "EVIDENCIA.PNG"
@@ -7,12 +7,12 @@ ESTADO: RESUELTO
 RESOLUCIÓN: Se coloco el nombre correcto de la funcion "addeventListener" por "addEventListener".
 
 Se adjunta evidencia de la resolucion: "RESOLUCION.PNG"
-TIPO DE PRUEBA REALIZADA: HUMO
+TIPO DE PRUEBA REALIZADA: UNITARIA
 AMBIENTE BUG: PRODUCCION
 
 
 CASO #2
-DESCRIPCION: Linea #97
+DESCRIPCION: Linea #96
 El llamado de la variable resetButton hacia referencia a una funcion mal escrita por lo que se cambio por la correcta.
 
 Se adjunta evidencia del caso: "EVIDENCIA.PNG"
@@ -20,7 +20,7 @@ ESTADO: RESUELTO
 RESOLUCIÓN: Se coloco el nombre correcto de la funcion "addeventListener" por "addEventListener".
 
 Se adjunta evidencia de la resolucion: "RESOLUCION.PNG"
-TIPO DE PRUEBA REALIZADA: HUMO
+TIPO DE PRUEBA REALIZADA: UNITARIA
 AMBIENTE BUG: PRODUCCION
 
 
@@ -51,7 +51,7 @@ AMBIENTE BUG: PRODUCCION
 
 
 CASO #5
-DESCRIPCION: Linea #48
+DESCRIPCION: Linea #43
 La funcion random estaba mal ya que se estaba multiplicando por 10 y el numero aleatorio correcto es hasta 100 y no se le hacia la suma de 1 para su incremento
 
 Se adjunta evidencia del caso: "EVIDENCIA.PNG"
@@ -64,7 +64,7 @@ AMBIENTE BUG: PRODUCCION
 
 
 CASO #6
-DESCRIPCION: Linea #117
+DESCRIPCION: Linea #115
 La funcion random estaba mal ya no se estaba declarando ni multiplicando por 100 y unicamente se le estaba sumando + 1 
 
 Se adjunta evidencia del caso: "EVIDENCIA.PNG"

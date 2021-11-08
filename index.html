@@ -61,9 +61,6 @@
       }
       guesses.textContent += userGuess + ' ';
 
-      if (guessField.value != Number) {
-        lastResult.textContent = 'Debe de ingresar unicamente numeros enteros';
-      }
       if(userGuess === randomNumber) {
         lastResult.textContent = 'Felicitaciones! adivinaste el número!';
         lastResult.style.backgroundColor = 'green';
